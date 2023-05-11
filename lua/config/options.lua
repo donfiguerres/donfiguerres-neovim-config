@@ -37,13 +37,6 @@ vim.filetype.add({
     [".*.tfstate.backup"] = "json",
     ["Jenkinsfile"] = "groovy",
   },
-  extension = {
-    hcl = "hcl",
-    terraformrc = "hcl",
-    tf = "terraform",
-    tfvars = "terraform",
-    tfstate = "json",
-  },
 })
 
 -- Fix for gitgutter not working on some windows. Can't remember where I saw
