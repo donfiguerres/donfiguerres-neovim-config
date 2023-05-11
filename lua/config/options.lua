@@ -46,4 +46,6 @@ vim.filetype.add({
   },
 })
 
+-- Fix for gitgutter not working on some windows. Can't remember where I saw
+-- this fix.
 vim.g.gitgutter_async = 0
