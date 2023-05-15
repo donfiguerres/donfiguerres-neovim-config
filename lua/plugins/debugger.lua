@@ -1,11 +1,12 @@
 return {
   {
     "mfussenegger/nvim-dap",
-  },
-  {
-    "mfussenegger/nvim-dap-python",
     dependencies = {
-      "mfussenegger/nvim-dap",
+      "mfussenegger/nvim-dap-python",
+      "nvim-dap-extra-conf",
+      config = function()
+        require("dap.ext.vscode").load_launchjs()
+      end,
     },
   },
   {
