@@ -7,4 +7,7 @@ return {
   {
     "hashivim/vim-terraform",
   },
+  {
+    "HiPhish/jinja.vim",
+  },
 }
