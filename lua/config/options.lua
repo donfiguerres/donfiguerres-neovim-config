@@ -10,6 +10,7 @@ vim.opt.colorcolumn = { "80", "120" }
 
 vim.opt.spelllang = "en"
 vim.opt.spell = true
+vim.opt.spelloptions = "camel"
 
 vim.cmd([[
 let g:clipboard = {
